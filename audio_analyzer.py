@@ -200,12 +200,12 @@ class AcousticIndices:
         total_energy = np.sum(Sxx) + 1e-10
 
         bands = {
-            'geofonia (< 200 Hz)':               (0,    200),
-            'ssaki, antropofonia (200-1000 Hz)':  (200,  1000),
-            'żaby, duże ptaki (1-2 kHz)':         (1000, 2000),
-            'ptaki śpiewające (2-5 kHz)':         (2000, 5000),
-            'owady, małe ptaki (5-8 kHz)':        (5000, 8000),
-            'nietoperze, owady (> 8 kHz)':        (8000, 11025),
+            'geophony (< 200 Hz)':               (0,    200),
+            'mammals, anthrophony (200-1000 Hz)':  (200,  1000),
+            'frogs, large birds (1-2 kHz)':         (1000, 2000),
+            'songbirds (2-5 kHz)':         (2000, 5000),
+            'insects, small birds (5-8 kHz)':        (5000, 8000),
+            'bats, insects (> 8 kHz)':        (8000, 11025),
         }
 
         result = {}
