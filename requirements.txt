@@ -1,0 +1,14 @@
+# ── Core ──────────────────────────────────────────────────────────
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+soundfile>=0.12
+
+# ── Microphone recording (optional) ───────────────────────────────
+# pip install sounddevice
+# Linux: sudo apt install python3-tk portaudio19-dev
+sounddevice>=0.4.6
+
+# ── Bird species identification (optional) ────────────────────────
+# pip install birdnet
+# birdnet>=0.1
