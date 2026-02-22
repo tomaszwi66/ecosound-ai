@@ -53,12 +53,12 @@ BAR_COLORS = ['#ef4444', '#f59e0b', '#22c55e',
 
 # Display labels for frequency band keys returned by band_analysis
 BAND_LABELS = {
-    'geofonia (< 200 Hz)':              'Geo <200',
-    'ssaki, antropofonia (200-1000 Hz)': 'Anthro',
-    'żaby, duże ptaki (1-2 kHz)':       'Frogs',
-    'ptaki śpiewające (2-5 kHz)':       'Birds',
-    'owady, małe ptaki (5-8 kHz)':      'Insects',
-    'nietoperze, owady (> 8 kHz)':      'Ultra',
+    'geophony (< 200 Hz)':              'Geo <200',
+    'mammals, anthrophony (200-1000 Hz)': 'Anthro',
+    'frogs, large birds (1-2 kHz)':       'Frogs',
+    'songbirds (2-5 kHz)':       'Birds',
+    'insects, small birds (5-8 kHz)':      'Insects',
+    'bats, insects (> 8 kHz)':      'Ultra',
 }
 
 
